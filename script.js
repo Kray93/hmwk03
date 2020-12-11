@@ -83,8 +83,12 @@ function generatePassword() {
     } else {
         console.log("Special characters OK: " + false);
     }
-console.log(okayChar);
     // TODO: add edge case prompt if user does not accept at least on selection
+    if (askLower,askUpper,askNumber,askSpecial===false){
+        alert("Choose valid selection!")
+    }
+    console.log(okayChar);
+    
 
     // loop to randomly select okayChar for randomPass
     for (var i = 0; i < userLength; i++) {
